@@ -3,7 +3,7 @@ FROM golang:1.18-alpine AS builder
 
 # ENV 设置环境变量
 ENV GO111MODULE=on
-ENV GOPROXY=https://goproxy.io,direct
+ENV GOPROXY=https://goproxy.cn,direct
 
 # COPY 源路径 目标路径
 COPY . /go/src/github.com/ch3nnn/webstack-go
